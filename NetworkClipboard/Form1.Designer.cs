@@ -36,7 +36,9 @@
             this.clipboardData.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.clipboardData.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.clipboardData.Location = new System.Drawing.Point(13, 12);
+            this.clipboardData.Margin = new System.Windows.Forms.Padding(0);
             this.clipboardData.Multiline = true;
             this.clipboardData.Name = "clipboardData";
             this.clipboardData.ReadOnly = true;
